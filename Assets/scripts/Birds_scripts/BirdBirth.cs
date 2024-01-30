@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Bird : MonoBehaviour
+public class Bird1 : MonoBehaviour
 {
-   
+    
 }

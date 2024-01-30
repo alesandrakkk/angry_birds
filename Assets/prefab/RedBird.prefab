@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6101074993842982782}
   - component: {fileID: 6101074993842982781}
   - component: {fileID: 6101074993842982780}
-  - component: {fileID: 6101074993842982776}
   - component: {fileID: 6101074993842982779}
   - component: {fileID: 6101074993842982778}
   - component: {fileID: 6101074993842982724}
@@ -127,26 +126,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!231 &6101074993842982776
-SpringJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6101074993842982770}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 0}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: -0.2147473, y: 0.19698066}
-  m_AutoConfigureDistance: 1
-  m_Distance: 0.005
-  m_DampingRatio: 0
-  m_Frequency: 5
 --- !u!114 &6101074993842982779
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -3,18 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class Shoot : MonoBehaviour
 {
     [SerializeField] private Rigidbody2D BirdRB;
-   
-    //private Camera _camera;
     private bool isCliked = false;
 
-    private void Start()
+    private void Awake()
     {
         BirdRB = GetComponent<Rigidbody2D>();
-        //_camera = Camera.main;
-              
+                     
     }
     private void Update()
     {
@@ -38,13 +36,9 @@ public class Shoot : MonoBehaviour
        isCliked = false;
         BirdRB.isKinematic = false;
         Debug.Log("I'm yours worst nightmare");
-        StartCoroutine(Fly());
+       // StartCoroutine(Fly());
     }
      
-    IEnumerator Fly(){
-        yield return new WaitForSeconds(0.2f);
-        gameObject.GetComponent < SpringJoint2D >().enabled = false;
-        this.enabled = false;
-    }
+   
 }
 
