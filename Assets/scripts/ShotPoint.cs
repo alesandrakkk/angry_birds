@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class ShotPoint : MonoBehaviour
 {
     [SerializeField] private float maxDistance = 2;
-    private Vector2 shootingPos;
+    public Vector2 shootingPos;
     private Camera _camera;
     public UnityEvent<Vector2> onRelease;
 
