@@ -9,8 +9,8 @@ using DG.Tweening;
 [Serializable]
     public class BirdMigration
     {
-        [SerializeField] private float animationStart = 2f;
-        [SerializeField] private float animationJump = 3f;
+        [SerializeField] private float animationStart = 1f;
+        [SerializeField] private float animationJump = 2f;
 
         public IEnumerator Migration(Bird bird, Vector2 target)
         {

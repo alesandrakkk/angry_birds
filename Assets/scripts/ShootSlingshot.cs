@@ -27,7 +27,7 @@ namespace Assets.scripts
          
         private IEnumerator SeatBird(Bird bird)
         {
-            shotPoint.enabled = false;
+            //shotPoint.enabled = false;
             yield return _birdMigration.Migration(bird, shotPoint.transform.position);
             shotPoint.enabled = true;
 
