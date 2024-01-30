@@ -9,7 +9,7 @@ namespace Assets.scripts
         [SerializeField] private BirdBirth birdBirth;
         [SerializeField] private ShotPoint shotPoint;
         //[SerializeField] private Shooting shooting;
-        private float power = 10f;
+         [SerializeField]  private float power = 10f;
         [SerializeField] private float numberBirds = 5;
 
 
